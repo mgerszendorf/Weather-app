@@ -1,0 +1,54 @@
+.next_five_day {
+    width: 80vw;
+    max-width: 400px;
+    min-width: 250px;
+    background-color: #A9B6CC;
+    border-radius: 12px;
+    padding: 5rem 1rem;
+    margin: 2rem auto;
+}
+
+.date_and_city p {
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.mean_temperature {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.temperature p:nth-child(2) {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.morning_temperature,
+.day_temperature,
+.night_temperature,
+.humidity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+.morning_temperature img,
+.day_temperature img,
+.night_temperature img,
+.humidity img {
+    width: 64px;
+    margin-right: 4rem;
+}
+
+.morning_temperature p,
+.day_temperature p,
+.night_temperature p,
+.humidity p {
+    font-size: 2rem;
+}
+
+.temperature {
+    margin: 2rem 0;
+}

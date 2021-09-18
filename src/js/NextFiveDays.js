@@ -8,7 +8,6 @@ function nextFiveDays(props) {
     return (
         <section className='next_five_day'>
                 <div className="date_and_city">
-                    <h1>Poznan</h1>
                     <p>Tuesday, Januar 10, 2021</p>
                 </div>
                 <div className="temperature">
