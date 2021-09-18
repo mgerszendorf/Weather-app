@@ -6,15 +6,15 @@ function Day(props) {
         <section className='day_wrapper'>
             <div className='day'>
                 <div className='date_and_city_d'>
-                    <h1>Poznan</h1>
-                    <p>Tuesday, Januar 10, 2021</p>
+                    <h1>{props.cityName}</h1>
+                    <p>{props.date}</p>
                 </div>
                 <div className='temperature_d'>
-                    <p>20°C</p>
+                    <p>{props.currentTemperature}°F</p>
                 </div>
                 <div className='humidity_d'>
                     <img src={drop} alt="Drop" />
-                    <p>10%</p>
+                    <p>{props.currentHumidity}%</p>
                 </div>
             </div>
         </section>

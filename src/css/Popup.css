@@ -1,10 +1,6 @@
-.popup {
-    display: none;
-}
-
-.active_popup {
+.popup_wrapper{
     display: block;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -12,6 +8,19 @@
     border: 2px solid #157FFB;
     background-color: #fff;
     padding: 2rem;
+}
+
+.popup {
+    display: none;
+}
+
+.active_popup {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
 }
 
 .cross {

@@ -1,5 +1,5 @@
-.next_five_day {
-    width: 80vw;
+.next_four_day {
+    width: 85vw;
     max-width: 400px;
     min-width: 250px;
     background-color: #A9B6CC;
@@ -51,4 +51,9 @@
 
 .temperature {
     margin: 2rem 0;
+}
+
+.next_four_days_wrapper{
+    display: flex;
+    flex-wrap: wrap;
 }
