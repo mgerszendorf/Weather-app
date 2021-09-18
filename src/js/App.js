@@ -200,8 +200,8 @@ function App() {
       <Day
         cityName={cityName}
         date={date}
-        currentTemperature={currentTemperature}
-        currentHumidity={currentHumidity}
+        currentTemperature={Math.floor(currentTemperature)}
+        currentHumidity={Math.floor(currentHumidity)}
       />
       <Popup
         button={button}
@@ -216,12 +216,16 @@ function App() {
           <NextFourDays
             key={data}
             dateFourDays={dateFourDaysArr[data]}
-            currentTemperatureFourDays={currentTemperatureFourDaysArr[data]}
-            minTemperature={minTemperatureArr[data]}
-            maxTemperature={maxTemperatureArr[data]}
-            morningTemperature={morningTemperatureArr[data]}
-            temperatureDuringTheDay={temperatureDuringTheDayArr[data]}
-            nightTemperature={nightTemperatureArr[data]}
+            currentTemperatureFourDays={Math.floor(
+              currentTemperatureFourDaysArr[data]
+            )}
+            minTemperature={Math.floor(minTemperatureArr[data])}
+            maxTemperature={Math.floor(maxTemperatureArr[data])}
+            morningTemperature={Math.floor(morningTemperatureArr[data])}
+            temperatureDuringTheDay={Math.floor(
+              temperatureDuringTheDayArr[data]
+            )}
+            nightTemperature={Math.floor(nightTemperatureArr[data])}
             humidityFourDays={humidityFourDaysArr[data]}
           />
         ))}
