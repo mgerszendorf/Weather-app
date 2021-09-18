@@ -1,0 +1,40 @@
+.day {
+    width: 80vw;
+    max-width: 400px;
+    min-width: 250px;
+    background-color: #A9B6CC;
+    border-radius: 12px;
+    padding: 5rem 1rem;
+    margin: 0 auto;
+}
+
+.date_and_city_d h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.date_and_city_d p {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.temperature_d p {
+    font-size: 5rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.humidity_d {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.humidity_d img {
+    width: 64px;
+    margin-right: 1rem;
+}
+
+.humidity_d p {
+    font-size: 2.5rem;
+}
